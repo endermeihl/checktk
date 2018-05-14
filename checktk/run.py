@@ -86,7 +86,7 @@ def auto_login_hi():
             tm.append(zsdmc)
             examtk.append(tm)
             stbh = stbh + 1
-    fname = os.path.abspath('.') + '\/file\/' + xmmc + '.csv'
+    fname = os.path.abspath('.') + r'\/file\/' + xmmc + '.csv'
     with open(
             fname, mode='w', encoding='gbk',
             newline='') as csvfile:  # 解决写入空行问题 使用wb不会再每一行后面插入空行
